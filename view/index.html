@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel='stylesheet', href='../public/css/style.css'>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel='stylesheet', href='../public/css/bootstrap.css'>
+    <link rel='stylesheet', href='../public/css/compiled.min.css'>
+    <link rel='stylesheet', href='../public/css/mdb.css'>
+
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/js/mdb.min.js'></script>
+  </head>
+  <div class='jumbotron card-header success-color white-text text-lg-center'>
+    <h2> Javascript Event Example</h2>
+    <h5> Try dragging the Button, hover option, check the radio button </h5>
+  </div>
+  <body class="mdb-skin-custom">
+    <div id="draggable" class="btn btn-danger ui-widget-content">
+    <p>Button</p>
+
+  </div>
+
+    <fieldset class="form-group">
+    <input name="group1" type="radio" id="radio1" value='#4285f4'>
+    <label for="radio1" class="btn btn-sm btn-primary" value='#4285F4' onmouseover="dohover(this)" onmouseout="mouseleave">Option 1</label>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <input name="group1" type="radio" id="radio2" value='#2bbbad'>
+        <label for="radio2" class="btn btn-sm btn-default" value='#2bbbad' onmouseover="dohover(this)" onmouseout="mouseleave">Option 2</label>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <input name="group1" type="radio" id="radio3" value='#aa66cc'>
+        <label for="radio3" class="btn btn-sm btn-secondary" value='#aa66cc' onmouseover="dohover(this)" onmouseout="mouseleave">Option 3</label>
+    </fieldset>
+
+    <fieldset class="form-group">
+    <input name="group1" type="radio" id="radio4" value='#00c851'>
+    <label for="radio4" class="btn btn-sm btn-success" value='#00c851' onmouseover="dohover(this)" onmouseout="mouseleave">Option 4</label>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <input name="group1" type="radio" id="radio5" value='#33b5e5'>
+        <label for="radio5" class="btn btn-sm btn-info" value='#33b5e5' onmouseover="dohover(this)" onmouseout="mouseleave">Option 5</label>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <input name="group1" type="radio" id="radio6" value='#ff8800'>
+        <label for="radio6" class="btn btn-sm btn-warning" value='#ff8800' onmouseover="dohover(this)" onmouseout="mouseleave">Option 6</label>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <input name="group1" type="radio" id="radio7" value='#c00'>
+        <label for="radio7" class="btn btn-sm btn-danger" value='#c00' onmouseover="dohover(this)" onmouseout="mouseleave">Option 7</label>
+    </fieldset>
+
+<script type='text/javascript' src='../public/js/jsevent.js'></script>
+  </body>
+</html>
